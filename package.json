@@ -1,0 +1,19 @@
+{
+  "name": "git_commit_cli",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "A tool to create git commit messsages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "commit": "./index.js"
+  },
+  "author": "Paritosh Pundir",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "inquirer-search-list": "^1.2.6"
+  }
+}
