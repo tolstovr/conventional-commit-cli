@@ -8,6 +8,13 @@ This CLI is inspired by the [Conventional Commits](https://www.conventionalcommi
 
 ## Installation
 
+Make sure you have node.js installed on your system. You can download it from [here](https://nodejs.org/).
+
+Run the following command to install the CLI globally.
+
+```npm i c-commit-cli -g```
+
+You can now run `commit` from any directory.
 
 ## Usage
 
@@ -23,25 +30,25 @@ The first prompt is about the type of commit you are making. Following are the o
 
 ![Select commit type](./imgs/demo-type.gif)
 
-- **feat:** A new feature
-- **fix:** A bug fix
-- **docs:** Documentation only changes
-- **style:** Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-- **refactor:** A code change that neither fixes a bug nor adds a feature
-- perf: A code change that improves performance
-- test: Adding missing tests or correcting existing tests
-- build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
-- ci: Changes to our CI configuration files and scripts
-- chore: Other changes that don't modify src or test files
-- revert: Reverts a previous commit
+- **feat**: A new feature
+- **fix**: A bug fix
+- **docs**: Documentation only changes
+- **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semicolons, etc.)
+- **refactor**: A code change that neither fixes a bug nor adds a feature
+- **perf**: A code change that improves performance
+- **test**: Adding missing tests or correcting existing tests
+- **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+- **ci**: Changes to our CI configuration files and scripts
+- **chore**: Other changes that don't modify src or test files
+- **revert**: Reverts a previous commit
 
 #### To be added in the future
 
-- wip: Work in progress
-- release: Release a new version
-- deps: Update dependencies
-- security: Fix security issues
-- breaking: Introduce breaking changes
+- **wip**: Work in progress
+- **release**: Release a new version
+- **deps**: Update dependencies
+- **security**: Fix security issues
+- **breaking**: Introduce breaking changes
 
 ### Select a Gitmoji
 

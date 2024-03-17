@@ -1,8 +1,22 @@
 {
-  "name": "git_commit_cli",
+  "name": "c-commit-cli",
   "type": "module",
-  "version": "0.1.0",
-  "description": "A tool to create git commit messsages.",
+  "version": "0.1.5",
+  "author": "Paritosh Pundir",
+  "license": "MIT",
+  "description": "A CLI tool to create conventional git commit messages in terminal.",
+  "keywords": [
+    "commit",
+    "cli",
+    "git",
+    "conventional commit",
+    "node cli tool",
+    "Gitmoji"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paari/conventional-commit-cli"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +24,6 @@
   "bin": {
     "commit": "./index.js"
   },
-  "author": "Paritosh Pundir",
-  "license": "ISC",
   "dependencies": {
     "inquirer": "^9.1.4",
     "inquirer-search-list": "^1.2.6"
